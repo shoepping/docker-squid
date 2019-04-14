@@ -2,7 +2,7 @@ version: '3.5'
 services:
 
   squid:
-    image: shoepping/squid:19.04.04
+    image: shoepping/squid:19.04.14
     ports:
       - "3128:3128"
     restart: always
