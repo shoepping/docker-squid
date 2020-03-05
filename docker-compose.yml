@@ -2,7 +2,7 @@ version: '3.5'
 services:
 
   squid:
-    image: shoepping/squid:19.04.14
+    image: shoepping/squid:20.03.05
     ports:
       - "80:3128"
       - "3128:3128"
@@ -13,4 +13,3 @@ services:
 volumes:
   squid-data:
     name: squid-data-volume
-
